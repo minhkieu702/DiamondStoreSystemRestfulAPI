@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DiamondStoreSystem.DataLayer", "DiamondStoreSystem.DataLayer\DiamondStoreSystem.DataLayer.csproj", "{9BF97957-62C8-4B3B-8809-63ABD626FCB6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DiamondStoreSystem.BusinessLayer", "DiamondStoreSystem.BusinessObject\DiamondStoreSystem.BusinessLayer.csproj", "{1971BFE3-02EB-495E-A577-6E8438E33A12}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DiamondStoreSystem.API", "DiamondStoreSystem.Api\DiamondStoreSystem.API.csproj", "{9470C4AF-BA2B-490B-8248-2B33A656869F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DiamondStoreSystem.DAO", "DiamondStoreSystem.DAO\DiamondStoreSystem.DAO.csproj", "{AE47C6CE-75C8-4C9F-B715-7D96D8926C10}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DiamondStoreSystem.Repositories", "DiamondStoreSystem.Repositories\DiamondStoreSystem.Repositories.csproj", "{8708312D-4735-40F6-A5FB-2F6A47D9E3BC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiamondStoreSystem.WebJob", "DiamondStoreSystem.WebJob\DiamondStoreSystem.WebJob.csproj", "{A42506B5-7AE3-45BE-81D7-605D003AC513}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9BF97957-62C8-4B3B-8809-63ABD626FCB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BF97957-62C8-4B3B-8809-63ABD626FCB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BF97957-62C8-4B3B-8809-63ABD626FCB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BF97957-62C8-4B3B-8809-63ABD626FCB6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1971BFE3-02EB-495E-A577-6E8438E33A12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1971BFE3-02EB-495E-A577-6E8438E33A12}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1971BFE3-02EB-495E-A577-6E8438E33A12}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1971BFE3-02EB-495E-A577-6E8438E33A12}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9470C4AF-BA2B-490B-8248-2B33A656869F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9470C4AF-BA2B-490B-8248-2B33A656869F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9470C4AF-BA2B-490B-8248-2B33A656869F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9470C4AF-BA2B-490B-8248-2B33A656869F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE47C6CE-75C8-4C9F-B715-7D96D8926C10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE47C6CE-75C8-4C9F-B715-7D96D8926C10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE47C6CE-75C8-4C9F-B715-7D96D8926C10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE47C6CE-75C8-4C9F-B715-7D96D8926C10}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8708312D-4735-40F6-A5FB-2F6A47D9E3BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8708312D-4735-40F6-A5FB-2F6A47D9E3BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8708312D-4735-40F6-A5FB-2F6A47D9E3BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8708312D-4735-40F6-A5FB-2F6A47D9E3BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A42506B5-7AE3-45BE-81D7-605D003AC513}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A42506B5-7AE3-45BE-81D7-605D003AC513}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A42506B5-7AE3-45BE-81D7-605D003AC513}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A42506B5-7AE3-45BE-81D7-605D003AC513}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8EC3F4D0-06E5-4643-87E1-BC53F1F30168}
+	EndGlobalSection
+EndGlobal
